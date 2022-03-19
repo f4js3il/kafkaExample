@@ -14,3 +14,6 @@ kafka-console-producer.bat --broker-list localhost:9092 --topic javatechie
 
 Consume a message
 kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic shalu
+
+List topics
+kafka-topics.bat --list --bootstrap-server=localhost:9092
